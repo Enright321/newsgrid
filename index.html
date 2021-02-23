@@ -26,7 +26,7 @@
 <body>
   <nav id="main-nav">
     <div class="container">
-      <img class="logo" src="img/logo.png" alt="">
+      <img src="./img/logo.png" alt="" class="logo">
       <div class="social">
         <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
         <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
@@ -34,101 +34,143 @@
         <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
       </div>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#" class="current">Home</a></li>
         <li><a href="#">About</a></li>
       </ul>
     </div>
   </nav>
-</body>
 
-<!-- Showcase -->
-<header id="showcase">
-  <div class="container">
-    <div class="showcase-container">
-      <div class="showcase-content">
-        <div class="category category-sports">Sports</div>
-        <h1>Some Sports Article</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi sed aut tempore optio. Aperiam veniam
-          nobis, libero alias quo excepturi nostrum neque autem, reprehenderit cupiditate unde ad laboriosam. Maxime,
-          magni!</p>
-        <a href="article.html" class="btn btn-primary">Read More</a>
+  <header id="showcase">
+    <div class="container">
+      <div class="showcase-container">
+        <div class="content">
+          <div class="category sports-category">SPORTS</div>
+          <h2>Some Sports Article</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos et ipsa quos, sapiente laborum delectus iure
+            fuga itaque. Iure, ad est rem id excepturi atque in ipsum eos minima corporis.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
       </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<!-- Home Articles -->
-<section id="home-articles" class="py-2">
-  <div class="container">
-    <h2>Editors Picks</h2>
-    <div class="articles-container">
-      <article class="card">
-        <img src="img/articles/ent1.jpg" alt="">
-        <div>
-          <div class="category category-ent">Entertainment</div>
-          <h3>
-            <a href="article.html">Lorem ipsum dolor sit amet.</a>
-          </h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione voluptates earum eum maxime rerum
-            aperiam ad facere illo ipsum!</p>
-        </div>
-      </article>
-      <article class="card bg-dark">
-        <div class="category category-sports">Sports</div>
-        <h3>
-          <a href="article.html">Lorem ipsum dolor sit amet.</a>
-        </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione voluptates earum eum maxime rerum
-          aperiam ad facere illo ipsum!</p>
-      </article>
-      <article class="card">
-        <img src="img/articles/tech1.jpg" alt="">
-        <div class="category category-tech">Technology</div>
-        <h3>
-          <a href="article.html">Lorem ipsum dolor sit amet.</a>
-        </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione voluptates earum eum maxime rerum
-          aperiam ad facere illo ipsum!</p>
-      </article>
-      <article class="card">
-        <div class="category category-sports">Sports</div>
-        <h3>
-          <a href="article.html">Lorem ipsum dolor sit amet.</a>
-        </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione voluptates earum eum maxime rerum
-          aperiam ad facere illo ipsum!</p>
-        <img src="img/articles/sports1.jpg" alt="">
-      </article>
-      <article class="card">
-        <img src="img/articles/tech2.jpg" alt="">
-        <div class="category category-tech">Technology</div>
-        <h3>
-          <a href="article.html">Lorem ipsum dolor sit amet.</a>
-        </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione voluptates earum eum maxime rerum
-          aperiam ad facere illo ipsum!</p>
-      </article>
-      <article class="card bg-primary">
-        <div class="category category-sports">Sports</div>
-        <h3>
-          <a href="article.html">Lorem ipsum dolor sit amet.</a>
-        </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione voluptates earum eum maxime rerum
-          aperiam ad facere illo ipsum!</p>
-      </article>
-      <article class="card">
-        <div>
-          <div class="category category-ent">Entertainment</div>
-          <h3>
-            <a href="article.html">Lorem ipsum dolor sit amet.</a>
-          </h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione voluptates earum eum maxime rerum
-            aperiam ad facere illo ipsum!</p>
-        </div>
-        <img src="img/articles/ent2.jpg" alt="">
-      </article>
+  <!-- Home Articles -->
+  <section id="home-articles" class="py-2">
+    <div class="container">
+      <h2>Editors Picks</h2>
+      <div class="articles-container">
+
+        <article class="card">
+          <img src="img/articles/ent1.jpg" alt="">
+          <div>
+            <div class="category ent-category">ENTERTAINMENT</div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eos? Ipsa id repellat non sequi
+              laboriosam maiores odit temporibus incidunt.</p>
+          </div>
+        </article>
+
+        <article class="card bg-dark">
+          <div>
+            <div class="category sports-category">SPORTS</div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eos? Ipsa id repellat non sequi
+              laboriosam maiores odit temporibus incidunt.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="img/articles/tech1.jpg" alt="">
+          <div>
+            <div class="category tech-category">TECHNOLOGY</div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eos? Ipsa id repellat non sequi
+              laboriosam maiores odit temporibus incidunt.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div>
+            <div class="category sports-category">SPORTS</div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eos? Ipsa id repellat non sequi
+              laboriosam maiores odit temporibus incidunt.</p>
+          </div>
+          <img src="img/articles/sports1.jpg" alt="">
+        </article>
+
+        <article class="card">
+          <img src="img/articles/tech2.jpg" alt="">
+          <div>
+            <div class="category tech-category">TECHNOLOGY</div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eos? Ipsa id repellat non sequi
+              laboriosam maiores odit temporibus incidunt.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div>
+            <div class="category sports-category">SPORTS</div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eos? Ipsa id repellat non sequi
+              laboriosam maiores odit temporibus incidunt.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="img/articles/ent2.jpg" alt="">
+          <div>
+            <div class="category ent-category">Entertainment</div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eos? Ipsa id repellat non sequi
+              laboriosam maiores odit temporibus incidunt.</p>
+          </div>
+        </article>
+
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="py-2">
+    <div class="container">
+      <div class="footer-container">
+
+        <div class="footer-sec sec-1">
+          <img src="./img/logo_light.png" class="logo" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quia.</p>
+        </div>
+
+        <div class="footer-sec sec-2">
+          <h5>EMAIL NEWSLETTER</h5>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <form action="">
+            <input type="email" placeholder="Enter Email...">
+            <input type="submit" values="subscribe" class="btn btn-primary">
+          </form>
+        </div>
+
+        <div class="footer-sec sec-3">
+          <h3>Site Links</h3>
+          <ul class="list">
+            <li><a href="#">Help And Support</a></li>
+            <li><a href="#">Privacy and Policy</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-sec sec-4">
+          <h2>Join Our Club</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, error.</p>
+          <a href="#" class="btn btn-primary">Join Now</a>
+        </div>
+        <div class="footer-sec sec-5">Copyright &copy; 2021, All rights Reserved</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
 
 </html>
